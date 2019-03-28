@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Ertion's Pong Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+   
+    
+    <style>
+        
+        
+        center5{
+            display: flex;
+            justify-content: center;
+        }
+        
+        h3 {
+         font-family: 'Source Sans Pro', sans-serif;
+         text-align: center;
+         font-size: 60;
+            
+        }
+    
+        button {
+
+        background-color: #abba0d; 
+        border: 1px;
+        color: white;
+        padding: 25px 52px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        cursor: pointer;
+            
+            
+ 
+        }
+    
+    </style>
+    </head>
+    
+    
+    
+    <body>
+        
+        
+         <h3> Pong Game</h3>
+       
+      
+       <center>     
+            
+   <div>   <h3 class="center1"> Select game difficulty    </h3> </div>
+
+    
+   <div class="center1"> 
+        <a href="easy.html"> <button> Easy </button></a>
+        <a href="intermediate.html"> <button> Intermediate </button></a>
+        <a href="hard.html"> <button> Hard </button></a> 
+                </div>
+           <br />
+           <br />
+            
+          
+        </center>  
+            
+        <div class="center5">  <center>  <button onclick="clickAlert()"> Instructions</button> </center>
+        </div>
+         
+        <script> 
+        
+                function clickAlert() {
+        alert("This is a 2 player game! \n INSTRUCTIONS \n Left player: \n G - Move UP \n B - Move DOWN \n \n Right player: \n Up arrow key - move UP \n Down arrow key - move DOWN ");
+                }
+        
+        
+        </script>
+        
+        
+    </body>
+</html>
